@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signin"
+    android:alpha="0.9"
+    android:orientation="vertical"
+    tools:context=".admin_panel.AdminLoginScreen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:color/transparent" />
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="60dp"
+                            android:layout_marginRight="60dp"
+                            android:rotation="0"
+                            android:rotationX="0"
+                            android:src="@drawable/parking" />
+
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:layout_marginBottom="20dp"-->
+            <!--                android:fontFamily="@font/tiltneon_regular"-->
+            <!--                android:text="Let Your Car Take Some Rest"-->
+            <!--                android:textAlignment="center"-->
+            <!--                android:textColor="#ffffff"-->
+            <!--                android:textSize="28sp" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="25dp"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="70dp"
+                    android:alpha="0.8"
+                    android:background="@drawable/layout_background"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="15dp">
+
+                    <EditText
+                        android:id="@+id/adminLoginEmailID"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_verified_user_black_24dp"
+                        android:hint=" Email"
+                        android:inputType="text"
+                        android:padding="8dp"
+                        android:textColorHint="#555252" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="#000000" />
+
+                    <EditText
+                        android:id="@+id/adminLoginpassID"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:alpha="1.5"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/ic_lock_black_24dp"
+                        android:hint=" Password"
+                        android:inputType="textPassword"
+                        android:padding="8dp"
+                        android:textColorHint="#555252" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="#000000" />
+
+                    <ImageButton
+                        android:id="@+id/adminSigninID"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="35dp"
+                        android:background="@drawable/button_background"
+                        android:clickable="true"
+                        android:src="@drawable/ic_arrow_forward_black_24dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

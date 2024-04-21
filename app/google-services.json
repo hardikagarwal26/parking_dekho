@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "27198375244",
+    "project_id": "parking-dekho-8d59f",
+    "storage_bucket": "parking-dekho-8d59f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27198375244:android:977a8d97aea6466b313be9",
+        "android_client_info": {
+          "package_name": "com.find.parkinglot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUk-jyAPHEIxff20OmI6JwZFks7i1Gk5A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
