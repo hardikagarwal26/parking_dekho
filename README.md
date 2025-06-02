@@ -14,12 +14,11 @@ ParkingDekho is a convenient mobile application designed to help users find avai
 
 To get started with ParkingDekho, follow these steps:
 
-1. **Download the App**: Download ParkMyCar from the Google Play Store or Apple App Store.
-2. **Sign Up/Login**: Create an account or log in to your existing account.
-3. **Enable Location Services**: Allow the app to access your device's location to find nearby parking spots.
-4. **Find Parking**: Explore available parking spots near your location on the map.
-5. **Book Parking**: Select a parking spot, choose your preferred time duration, and book it.
-6. **Navigate**: Follow the directions provided by the app to reach your booked parking spot.
+1. **Sign Up/Login**: Create an account or log in to your existing account.
+2. **Enable Location Services**: Allow the app to access your device's location to find nearby parking spots.
+3. **Find Parking**: Explore available parking spots near your location on the map.
+4. **Book Parking**: Select a parking spot, choose your preferred time duration, and book it.
+5. **Navigate**: Follow the directions provided by the app to reach your booked parking spot.
 
 ## Permissions
 
